@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    display: inline-block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1020px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.container-fluid{
+    
+    padding: 0 15px;
+    /* margin: 20px 0 10px; */
+    line-height: 20px;
+  
+}
+.buttoLineHeight{
+    line-height: 40px;
+}
+#header{
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: orange;
+    font-size: 22px;
+}
+#logout{
+    cursor: pointer; 
+    
+}
+.color{
+    color: rgb(250, 249, 249) !important;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-flex p{
+    display: inline-block;
+}
+.color{
+    color: #007bff;
+}
+.d-flex .col{
+    width: 100%;
+    max-width: 60%;
+}
+.d-flex .col-2{
+    width: 100%;
+    max-width: 40%;
+    padding-left: 10px;
+    text-align: end;
+}
+
+.btn-container{
+    padding: 0 15px;
+    margin: 20px 0 10px;
+    
+}
+#fname{
+    outline: none;
+}
+.button-container{
+    padding: 30px 0;
+    text-align: center;
+    border: 1px solid #00000011; 
+    background-color: rgba(192, 192, 192, 0.219);
+}
+button{
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 14px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+button#cityAddStart{
+    background-color: #007bff;
+    border-color: #007bff;
+}
+button#cityAddEnd{
+    background-color: #2b92ffd2;
+    border-color: #2b92ffd2;
+}
+button#removeStart{
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+button#removeEnd{
+    background-color: #494949;
+    border-color: #6c757d;
+}
+button#chartAtFilter
+{
+    
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+button#listClear
+{
+    background-color: #28a745;
+    border-color: #28a745;
+}
+button#listShow
+{
+    background-color: #343a40;
+    border-color: #343a40;
+}
+button#find1{
+    background-color: #13cce9;
+    border-color: #13cce9;
+}
+button#cityFilter{
+    background-color: #4dcc6b;
+    border-color: #4dcc6b;
+}
+#result2{
+    margin-top: 30px;
+    border: 1px solid #00000011;  
+   
+    background-color: rgba(192, 192, 192, 0.219);
+}
+#result2 h4{
+    margin: 0px;
+    line-height: 37px;
+}
+#infoListDiv{
+    /* line-height: 15px; */
+    padding: 20px 40px;
+    background-color: rgba(194, 194, 194, 0.253); 
+}
+.infolist{
+    margin-top: 3rem;
+}
+#EntriesList{
+    max-width: 100%;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    line-height: 25px;
+    padding: 60px 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
